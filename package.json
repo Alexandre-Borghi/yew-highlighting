@@ -9,9 +9,6 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:yew-highlighting.helloWorld"
-  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
