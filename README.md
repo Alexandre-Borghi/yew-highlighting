@@ -7,6 +7,8 @@ Add syntax highlighting to [Yew](https://yew.rs/) `html!` macros.
 - Highlight `html!` macros using the XML syntax highlighting. This is still a
   work in progress.
 
+  ![Screenshot of a syntax highlighted Yew html macro](img/screenshot.png "Syntax highlighting example from a project")
+
 ## Known Issues
 
 - "XML" (the text in the `html!` macros) is recognized as Rust code
