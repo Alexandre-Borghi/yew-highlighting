@@ -9,14 +9,7 @@
   "categories": [
     "Other"
   ],
-  "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "yew-highlighting.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "languages": [
       {
         "id": "rust",
