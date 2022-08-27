@@ -10,7 +10,7 @@
         "html-macro": {
             "contentName": "text.xml.yew",
             "begin": "html! {",
-            "end": "} // html!",
+            "end": "}",
             "beginCaptures": {
                 "0": {
                     "name": "punctuation.code.open"
