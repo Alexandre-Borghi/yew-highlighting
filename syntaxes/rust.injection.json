@@ -1,0 +1,34 @@
+{
+    "scopeName": "source.rust.yew",
+    "injectionSelector": "L:source.rust",
+    "patterns": [
+        {
+            "include": "#html-macro"
+        }
+    ],
+    "repository": {
+        "html-macro": {
+            "contentName": "text.xml.yew",
+            "begin": "html! {",
+            "end": "} // html!",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.code.open"
+                }
+            },
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.code.close"
+                }
+            },
+            "patterns": [
+                {
+                    "include": "text.xml.yew"
+                },
+                {
+                    "include": "text.xml"
+                }
+            ]
+        }
+    }
+}

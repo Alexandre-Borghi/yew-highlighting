@@ -1,0 +1,31 @@
+{
+    "scopeName": "text.xml.yew",
+    "injectionSelector": "L:text.xml (meta.tag.xml)",
+    "patterns": [
+        {
+            "include": "#braces-block"
+        }
+    ],
+    "repository": {
+        "braces-block": {
+            "name": "source.rust.yew",
+            "begin": "{",
+            "end": "}",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.code.open"
+                }
+            },
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.code.close"
+                }
+            },
+            "patterns": [
+                {
+                    "include": "#braces-block"
+                }
+            ]
+        }
+    }
+}
