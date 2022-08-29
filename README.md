@@ -1,6 +1,6 @@
-# yew-highlighting
+# yew-highlighting (VSCode extension)
 
-Add syntax highlighting to [Yew](https://yew.rs/) `html!` macros.
+Add syntax highlighting to [Yew](https://yew.rs/) `html!` macros in Visual Studio Code.
 
 ## Features
 
