@@ -2,6 +2,10 @@
 
 Add syntax highlighting to [Yew](https://yew.rs/) `html!` macros in Visual Studio Code.
 
+## ⚠️ Better Alternative ⚠️
+
+[@TechTheAwesome](https://github.com/TechTheAwesome) has since made [a more complete extension](https://github.com/TechTheAwesome/code-yew-server). Future progress will be made on this extension, so check it out!
+
 ## Features
 
 - Highlight `html!` macros using the XML syntax highlighting. This is still a
